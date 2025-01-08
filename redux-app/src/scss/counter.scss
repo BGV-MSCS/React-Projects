@@ -1,0 +1,38 @@
+.container{
+    border: 1px solid blue;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    button{
+        margin: 10px;
+        border: none;
+        color: white;
+        height: 25px;
+        width: 25px;
+    }
+    .decrease{
+        background-color: red;
+    }
+    .increase{
+        background-color: green;
+    }
+   
+}
+input{
+    width: 15px;
+    align-items: center;
+    border: 2px solid blueviolet;
+    margin: 10px;
+}
+.IncreaseByadd{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    height: 25px;
+    border-radius: 10px;
+}
